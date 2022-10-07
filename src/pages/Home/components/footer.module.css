@@ -1,0 +1,28 @@
+.footerContainer{
+    height: 350px;
+    background-color: #FFF8F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #112B3C;
+}
+
+.footerElements{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 1084px;
+    height: 161px;
+    margin: auto;
+}
+
+.footerSections{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footerContainer span{
+    font-size: 14px;
+}

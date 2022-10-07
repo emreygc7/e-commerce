@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 80px;
+}
+
+.headerList{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.headerList li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #112B3C;
+}
+
+a{
+    color: black;
+}
+
+.navBarRight{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btnBuyOnline{
+    background-color: #F66B0E;
+    padding: 10px 20px;
+    color: white;
+}

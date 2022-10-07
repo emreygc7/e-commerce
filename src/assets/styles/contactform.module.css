@@ -1,0 +1,63 @@
+.formContainer{
+    width: 571px;
+    height: 580px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formContainer h1 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.formContainer span{
+    font-size: 20px;
+    line-height: 2rem;
+    color: #828282;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input::placeholder{
+    color: #BDBDBD;
+}
+
+input,textarea{
+    border: 1px solid #112B3C;
+    padding: 20px 21px;
+    resize: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.nameArea{
+    display: flex;
+    gap: 30px;
+}
+
+.nameArea input{
+    width: 270px;
+    height: 60px;
+}
+
+input[type="email"]{
+    width: 570px;
+    height: 60px;
+}
+
+.btn{
+    background-color: #F66B0E;
+    color: #fff;
+    width: 570px;
+    padding: 20px 21px;
+    border: none;
+    cursor: pointer;
+}

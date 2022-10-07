@@ -1,0 +1,32 @@
+.paymentContainer{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(0, 0, 0, .05);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    gap: 1rem;
+}
+
+hr{
+    opacity: .2;
+}
+
+.paymentBtn{
+    background-color: rgba(0, 100, 210, 0.1);
+    color: #0064D2;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: .5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.price, .delivery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p{
+    font-weight: 600;
+}

@@ -1,0 +1,136 @@
+.productContainer{
+    width: 1227px;
+    height: 701px;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.goBackContainer{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    color: #2F294D;
+}
+
+.goBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 100, 210, 0.1);
+}
+
+.hr{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border: 1px solid rgba(173, 173, 173, 0.17);
+    margin-top: 25px;
+}
+
+.productArea{
+    width: 1227px;
+    height: 603px;
+    margin: 66px auto;
+    display: flex;
+    gap: 46px;
+}
+
+.detailContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.titleArea{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.titleArea h1{
+    font-weight: 500;
+    color: #2F294D;
+}
+
+.titleArea div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 40px;
+    background-color:rgba(0, 100, 210, 0.1);
+    border-radius: 11px;
+    color: #0064D2;;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.detailContainer p{
+    color: #2F294D;
+    opacity: 0.5;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.price{
+    font-size: 44px;
+    font-weight: 500;
+    color: #2F294D;
+}
+
+.price sup{
+    font-size: 24px;
+    color: #2F294D;
+    opacity: .7;
+}
+.promisesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.promises{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2F294D;
+}
+
+.buyers{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttonsContainer{
+    display: flex;
+    gap: 1rem;
+}
+.buttons{
+    width: 226px;
+    height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+#addCartBtn{
+    background: rgba(0, 100, 210, 0.1);
+    color: #0064D2;
+}
+#buyNowBtn{
+    background-color: #0064D2;
+    color: #fff;
+}

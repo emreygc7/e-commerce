@@ -1,0 +1,254 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 3rem;
+}
+
+.topSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    height: 296px;
+    width: 970px;
+}
+
+.title {
+    color: #112B3C;
+    font-size: 96px;
+    line-height: 96px;
+}
+
+.subtitle{
+    color: #828282;
+    font-size: 20px;
+    width: 766px;
+}
+
+#arrowPic{
+    position: absolute;
+    width: 197px;
+    height: 230px;
+    left: 852px;
+    top: 69px;
+}
+
+/* SEARCH AREA */
+
+.searchArea{
+    position: relative;
+}
+
+.searchArea div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    width: 770px;
+    height: 100px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+}
+
+.searchArea div img{
+    width: 24px;
+    height: 24px;
+}
+
+.searchArea img{
+    width: 99vw;
+    height: 900px;
+    object-fit: cover;
+}
+
+.searchInput{
+    border: none;
+    width: 667px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchInput::placeholder{
+    font-size: 20px;
+    color: #BDBDBD;
+}
+
+/* About */
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 1170px;
+    height: 769px;
+    margin: 100px auto;
+}
+
+.aboutTop{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 470px;
+    height: 152px;
+}
+.aboutTop h1{
+    font-size: 64px;
+    line-height: 64px;
+    color: #112B3C;
+}
+
+.aboutTop span{
+    font-size: 20px;
+    color: #828282;
+}
+
+.aboutBottom{
+    display: flex;
+    gap: 30px;
+}
+
+.aboutBoxes{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 570px;
+    height: 441px;
+}
+
+.aboutBox{
+    width: 270px;
+    height: 188px;
+}
+
+.aboutBox h1{
+    font-size: 64px;
+    color: #F66B0E;
+}
+
+.aboutBox span{
+    font-size: 20px;
+    color: #BDBDBD;
+}
+
+.aboutImageBoxes, .contactImageBoxes{
+    display: flex;
+    gap: 30px;
+    width: 570px;
+    height: 633px;
+}
+
+.aboutImageBox, .contactImageBox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#aboutImageBox1, #contactImageBox1{
+    justify-content: flex-end;
+}
+
+
+/* Testimonial */ 
+
+.testimonialContainer{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #112B3C;
+}
+
+.testimonialTitle{
+    font-size: 64px;
+    color: #fff;
+    margin: 80px 0px 60px 315px;
+    width: 970px;
+    height: 64px;
+}
+
+.customerContainer{
+    width: 1009px;
+    height: 520px;
+    margin: auto ;
+    display: flex;
+    gap: 130px;
+}
+
+#starIcon{
+    position: absolute;
+    left: 396px;
+    top: 569px;
+    width: 165px;
+    height: 165px;
+}
+
+.commentContainer{
+    width: 470px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.commentContainer h1{
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.commentContainer span{
+    color: rgba(255, 255, 255, .8);
+    font-size: 20px;
+}
+
+#quote{
+    width: 60px;
+}
+
+.commentArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 38px;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrows{
+    align-self: flex-end;
+}
+
+/* Contact */
+
+.contactContainer{
+    width: 1170px;
+    height: 633px;
+    margin: 100px auto;
+    display: flex;
+}
